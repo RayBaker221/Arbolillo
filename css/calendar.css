@@ -1,0 +1,29 @@
+.calendar{
+	border-radius: 20px;
+	border-color: #D7D7D7;
+	border-width: 1px;
+	border-style: solid;
+	margin-top: 20px;
+	width: 90%;
+	margin-left: 5%;
+
+}
+
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+td span{
+	border-radius: 5px;
+}
+.espera{
+	background-color: #D7D7D7 !important;
+}
+
+.proceso{
+	background-color: #E5E439 !important;
+}
+
+.terminado{
+	background-color: #29E302 !important;
+}
