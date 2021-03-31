@@ -1,0 +1,22 @@
+/* reponsive registro */
+.container__register{
+    margin-top: 30px;
+}
+
+.container__register .container__register-inputs{
+    flex-direction: row;
+}
+
+.container__register .container__register-inputs input{
+    width: 450px;
+}
+
+.container__register .container__register-inputs .container__register_right{
+    margin-left: 20px;
+}
+
+.container__register .container__register-submit{
+    display: block;
+    width: 50%;
+    margin: 50px auto;
+}
