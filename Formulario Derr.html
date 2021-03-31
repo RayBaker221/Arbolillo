@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="es">
+  <head>
+        <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="jqueryjquery.nice-number.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>.: Formulario Derribo :. </title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+            <form class="w-100 border data-form rounded p-8 mt-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div>
+                                <p style="color:#3FA49F" class="display-4  text-center my-2">Formulario de Registro del Derribo de Arboles</p>
+                            </div>
+                            <p style="color:#3FA49F" class="font-weight-bold mt-3">Los campos con <span class="text-danger">*</span>
+                                son obligatorios</p>
+                              
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Tipo de Propiedad<span class="text-danger font-weight-bold ml-5">*</span></label>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                    <label class="form-check-label" for="flexRadioDefault1">
+                                      Propiedad Privada
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                    <label class="form-check-label" for="flexRadioDefault2">
+                                      Propiedad Publica 
+                                    </label>
+                                  </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Numero de Arboles <span class="text-danger font-weight-bold ml-5">*</span></label>
+                                <div class="container">
+                                
+                                    <input type="number" name="" id="" value="1" min="1" max="10">
+                             
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Nombre Completo <span class="text-danger font-weight-bold ml-5">*</span></label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Juan Raymundo Zamorano Perez">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Curp<span class="text-danger font-weight-bold ml-5">*</span></label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="ZACJ981117HDFMRN15">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Direccion <span class="text-danger font-weight-bold ml-5">*</span></label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Calle, Colonia, Codigo Postal">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Correo Electronico <span class="text-danger font-weight-bold ml-5">*</span></label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="juanraymundox@gmail.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Numero de Telefono <span class="text-danger font-weight-bold ml-5"></span></label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ej. 5520880259">
+                            </div>
+                            <div class="form-group">
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">Detalles o Advertencias</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                  </div>
+                            </div>
+                            <div class="form-group d-flex justify-content-center">
+                                <button type="button" onclick="registrarmedicamento()" class="btn-lg w-100 btn-danger mt-5 p-2">Modificar datos del formulario</button>
+                            </div>
+                            <div class="form-group d-flex justify-content-center">
+                                <button style="background-color:#2F2E41;" type="button" onclick="medicamentoRegistrado()" class="btn-lg w-100 btn-success mt-5 p-2">Volver a la pagina anterior</button>
+                            </div>
+                            <div class="form-group d-flex justify-content-center">
+                                <button style="background-color:#3FA49F" type="button" onclick="camposIncompletos()" class="btn-lg w-100 btn-success mt-5 p-2">Procedeer con la solicitud</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./jquery.nice-number.js"></script>
+    <script>
+        $(function(){
+
+$('input[type="number"]').niceNumber();
+
+}); 
+    </script>
+</body>
+</html>
