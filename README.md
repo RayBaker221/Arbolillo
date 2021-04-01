@@ -17,4 +17,4 @@ Para realizar las pruebas de uso del sistema, nos apoyamos de la herramienta de 
 10) Ir al directorio de XAMPP
 11) Ir al directorio htdocs
 12) Descargar este proyecto y guardarlo en esa carpeta
-13) Para abrirlo abrimos en el navegador localhost:8080/
+13) Para abrirlo abrimos en el navegador localhost:8080/navbar.html
