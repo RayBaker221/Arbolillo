@@ -1,0 +1,54 @@
+img{
+	width: 350px;
+}
+
+header{
+	background: #fff;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+h1{
+	
+}
+
+form{
+	padding: 350px:;
+}
+
+.derecha{
+	height: 100vh;
+	background: #3fa49f;
+	width: 50%;
+
+}
+
+.izquierda{
+	background-size: cover;
+	background: #ffff;
+	background-position: center;
+	width: 50%;
+	height: 100vh;
+}
+
+#pantalla-dividida{
+	display: flex;
+}
+
+/*.recuperacion{
+	border: 1px solid #E1E1E1;
+	border-radius: 5px;
+	padding: 17px;
+	width: 300px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%. -50%);
+
+}*/
